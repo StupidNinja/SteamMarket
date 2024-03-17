@@ -1,0 +1,73 @@
+{
+    "The Anubis Collection": {
+        "Covert": [
+            "M4A4 | Eye of Horus"
+        ],
+        "Classified": [
+            "FAMAS | Waters of Nephthys",
+            "P250 | Apep's Curse"
+        ],
+        "Restricted": [
+            "Glock-18 | Ramese's Reach",
+            "Nova | Sobek's Bite",
+            "P90 | ScaraB Rush"
+        ],
+        "Mil-Spec": [
+            "AWP | Black Nile",
+            "AK-47 | Steel Delta",
+            "MAG-7 | Copper Coated",
+            "Tec-9 | Mummy's Rot"
+        ],
+        "Industrial Grade": [
+            "M4A1-S | Mud-Spec",
+            "USP-S | Desert Tactical",
+            "MAC-10 | Echoing Sands",
+            "SSG 08 | Azure Glyph"
+        ],
+        "Consumer Grade": [
+            "MP7 | Sunbaked",
+            "XM1014 | Hieroglyph",
+            "M249 | Submerged",
+            "R8 Revolver | Inlay",
+            "AUG | Snake Pit"
+        ]
+    },
+    "The Revolution Collection": {
+        "Covert": [
+            "M4A4 | Temukau",
+            "AK-47 | Head Shot"
+        ],
+        "Classified": [
+            "AWP | Duality",
+            "P2000 | Wicked Sick",
+            "UMP-45 | Wild Child"
+        ],
+        "Restricted": [
+            "M4A1-S | Emphorosaur-S",
+            "Glock-18 | Umbral Rabbit",
+            "R8 Revolver | Banana Cannon",
+            "P90 | Neoqueen",
+            "MAC-10 | Sakkaku"
+        ],
+        "Mil-Spec": [
+            "MP5-SD | Liquidation",
+            "MP9 | Featherweight",
+            "P250 | Re.built",
+            "MAG-7 | Insomnia",
+            "Tec-9 | Rebel",
+            "SCAR-20 | Fragments",
+            "SG 553 | Cyberforce"
+        ]
+    },
+    "The Kilowatt Collection": {
+        "Covert": [
+            "AK-47 | Inheritance",
+            "AWP | Chrome Cannon"
+        ],
+        "Classified": [
+            "M4A1-S | Black Lotus",
+            "USP-S | Jawbreaker",
+            "Zeus x27 | Olympus"
+        ]
+    }
+}
