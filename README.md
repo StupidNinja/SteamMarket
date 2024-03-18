@@ -25,7 +25,7 @@ python main.py
  - `urllib3`
  - `BeautifulSoup`
 
-
+## Versions
 Version 1.0:
   - Added manually collection data filling feature
 
@@ -38,3 +38,6 @@ Version 1.1:
 Version 1.2:
   - The trade-up calculator with parameters : desired_skin, desired_wear, and output : total_cost, probability, skins_used, desired_skin_price, desired_collection
   - Posibility to calculate the profit or loss values of trade-up
+
+Version 1.3:
+ - Added CLI
