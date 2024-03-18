@@ -1,194 +1,167 @@
-from urllib.parse import urlencode, quote
 import json
 import requests
 import urllib3
+from bs4 import BeautifulSoup
 
-def create_skin_data_json():
-  """
-  Creates or updates a JSON file for CS:GO skin data with user input.
-  """
-
-  # Try to load existing data from JSON file (or create empty dict if not found)
-  try:
-    with open("skins_data.json", "r") as f:
-      skin_data = json.load(f)
-  except FileNotFoundError:
-    skin_data = {}
-
-  while True:
-    collection_name = input("Enter collection name (or 'q' to quit): ")
-    if collection_name.lower() == 'q':
-      break
-
-    # Check if collection already exists
-    if collection_name not in skin_data:
-      skin_data[collection_name] = {}  # Create new collection if not found
-
-    collection_data = skin_data[collection_name]  # Access or create collection data
-
-    while True:
-      rarity = input("Enter rarity (or 'q' to quit collection): ")
-      if rarity.lower() == 'q':
-        break
-
-      # Check if rarity already exists for this collection
-      if rarity not in collection_data:
-        collection_data[rarity] = []  # Create new rarity list if not found
-
-      skins = collection_data[rarity]  # Access or create list of skins
-
-      while True:
-        skin_name = input("Enter skin name (or 'q' to quit rarity): ")
-        if skin_name.lower() == 'q':
-          break
-        skins.append(skin_name)
-
-  # Write updated skin data to JSON file
-  with open("skins_data.json", "w") as f:
-    json.dump(skin_data, f, indent=4)  # Use indent for readability
-
-  print("Skin data saved to skins_data.json")
-def get_currency(currencies):
-    key_value_pairs = [f"{key}: {value}" for key,value in currencies.items()]
-    output_text = ", ".join(key_value_pairs)
-    currency_id = int(input("Enter currency id:\n"+output_text+"\n"))
-    return currency_id
-def req_get(url):
-    urllib3.disable_warnings()
-    http = urllib3.PoolManager()
-    req = http.request('GET', url)
-    return req.data.decode("utf-8")
-# def test():
-#     # Define the base URL and query parameters
-#     base_url = "https://steamcommunity.com/market/priceoverview/"
-#     params = {
-#         "country": "US",  # Replace with your desired country code
-#         "currency": 1,  # Replace with your desired currency code (e.g., 1 for USD)
-#         "appid": 570,  # Replace with the app ID of the game
-#         "market_hash_name": "AK-47%20%7C%20Redline%20%28Field-Tested%29",
-#         # Replace with the market hash name of the item
-#     }
-#
-#     # Create a urllib3 PoolManager object
-#     http = urllib3.PoolManager()
-#
-#     # Encode the query parameters
-#     # encoded_params =
-#
-#     # Build the complete URL
-#     url = f"{base_url}?{encoded_params}"
-#
-#     # Send the GET request and get the response
-#     response = http.request('GET', url)
-#
-#     # Check for successful response
-#     if response.status == 200:
-#         # Process the response data (usually JSON)
-#         data = response.json()
-#         print(data)
-#     else:
-#         print(f"Error: {response.status} - {response.reason}")
-def get_and_combine_skin_data(skin_data_file, api_url, output_file, country="US", currency="1", appid=730):
-  """
-  Gets prices for skins in a JSON file, combines with existing data, and saves to a new file after each successful response.
-
-  Args:
-      skin_data_file (str): Path to the JSON file containing skin data.
-      api_url (str): URL of the Steam market price overview API.
-      output_file (str): Path to the output JSON file.
-      country (str, optional): Country code for price information (defaults to "US").
-      currency (str, optional): Currency ID for price information (defaults to "1").
-      appid (int, optional): App ID of the game (defaults to 730 for CS:GO).
-  """
-
-  # Load existing skin data from JSON file (consider loading only necessary data for efficiency)
-  with open(skin_data_file, "r") as f:
-    skins_data = json.load(f)
-
-  # Data to store combined information (consider using a dictionary for better structure)
-  combined_data = {}
-
-  # Define skin wear options with the desired format
-  wear_options = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
-
-  http = urllib3.PoolManager()  # Create a connection pool manager
-
-  for collection_name, collection_data in skins_data.items():
-    for rarity, skins in collection_data.items():
-      for skin_name in skins:
-        # Combine skin name with wear options (use the modified list)
-        for wear in wear_options:
-          encoded_name = quote(f"{skin_name} ({wear})")  # Encode the entire string
-
-          # Create a dictionary of parameters with the correct order
-          params = {
-              "country": country,
-              "currency": currency,
-              "appid": appid,
-              "market_hash_name": encoded_name  # Already URL-encoded using quote
-          }
-
-          # Encode only the remaining parameters (if any)
-          other_params = {k: v for k, v in params.items() if k != "market_hash_name"}
-          encoded_params = urlencode(other_params)
-
-          # Construct the URL using the encoded market_hash_name and potentially other parameters
-          url = f"{api_url}?{encoded_params}&market_hash_name={encoded_name}" if encoded_params else f"error"
-
-          print(f"Sending request to URL: {url}")  # Print the constructed URL
-
-          # Send the GET request using urllib3
-          response = http.request('GET', url)
-
-          # Check for successful response status code
-          if response.status == 200:
-            data = response.json()
-          else:
-            print(f"Error: API request failed with status code {response.status}")
-            data = {}  # Empty data to avoid errors in following steps
-
-          print(f"API Response for skin '{skin_name} ({wear})':")
-          print(json.dumps(data, indent=4))
-
-          # Extract and store price data for the current skin
-          if data["success"] and "prices" in data:
-            price_info = data["prices"][0]
-            median_price = price_info.get("median_price", None)
-            lowest_price = price_info.get("lowest_price", None)  # Ensure lowest price is captured
-
-            # Prepare price data for saving
-            price_data = {
-                "name": skin_name,
-                "wear": wear,  # Add wear information
-                "prices": {
-                    "lowest_price": lowest_price,
-                    "volume": price_info.get("volume", None),
-                    "median_price": median_price
-                }
-            }
-
-            # Append price data to combined data (consider a more structured approach)
-            combined_data[f"{skin_name} ({wear})"] = price_data
-
-            # Save the combined data to the JSON file after each successful response
-            with open(output_file, "w") as f:
-              json.dump(combined_data, f, indent=4)  # Use indent for readability
-
-  print(f"Finished processing all skins. Combined data saved to {output_file}")
-
-def main():
-    # game_id = 730
-    # currencies = {"usd": 1, "gbp": 2, "eur": 3, "chf": 4, "rub": 5, "pln": 6, "brl": 7, "jpy": 8, "nok": 9, "idr": 10}
-    # get_currency(currencies)
-    create_skin_data_json()
-    # Replace with the paths to your files and API URL
-    # skin_data_file = "skins_data.json"
-    # api_url = "https://steamcommunity.com/market/priceoverview/"
-    # output_file = "skins_data_with_prices.json"
-    #
-    # # Call the function to retrieve prices and create the combined data file
-    # get_and_combine_skin_data(skin_data_file, api_url, output_file)
+import urllib.parse
 
 
-if __name__ == "__main__":
-    main()
+def scrape_and_save_prices(skin_name, wear):
+    # Disable SSL warnings and certificate verification
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    http = urllib3.PoolManager(cert_reqs='CERT_NONE')
+
+    # Define the base URL for the Steam market price overview API
+    base_url = "http://steamcommunity.com/market/priceoverview/"
+
+    # Define the parameters that are the same for all requests
+    params = {
+        'country': 'US',
+        'currency': '1',
+        'appid': '730',
+    }
+
+    # Add the market_hash_name and wear to the parameters
+    params['market_hash_name'] = f"{skin_name} ({wear})"
+
+    # Construct the full URL
+    url = base_url + '?' + urllib.parse.urlencode(params)
+
+    # Send the GET request
+    response = http.request('GET', url)
+
+    print(response.json())
+
+    # Parse the response
+    data = json.loads(response.data.decode('utf-8'))
+
+    # Return the data
+    return data
+
+
+def get_skin_price(skin_name, wear):
+    # Replace spaces with '+' for the URL
+    skin_name = skin_name.replace(' ', '+')
+    wear = wear.replace(' ', '+')
+
+    # Make a request to the Steam Community Market priceoverview API
+    response = requests.get(f"https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=730&market_hash_name={skin_name}+({wear})")
+
+    # Parse the response JSON and return the lowest price
+    return float(response.json()['lowest_price'].replace('$', ''))
+
+
+def get_cheapest_item_id(item_name):
+    # Get the listings for the item
+    response = requests.get(f'https://steamcommunity.com/market/listings/730/{item_name}')
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Find the script tag that contains the listings
+    script_tag = soup.find('script', text=lambda t: 'Market_LoadOrderSpread' in t)
+
+    # Check if the script tag was found
+    if script_tag is None:
+        print(f"No listings found for {item_name}")
+        return None
+
+    # Extract the item_id of the cheapest listing from the script tag
+    item_id = script_tag.text.split('Market_LoadOrderSpread(')[1].split(')')[0]
+
+    return item_id
+
+
+def trade_up_calculator(desired_skin, desired_wear):
+    # Load the data from collections.json
+    with open('collections.json', 'r') as f:
+        collections_data = json.load(f)
+
+    # Define a mapping from rarity names to integers
+    rarity_mapping = {
+        'Consumer Grade': 0,
+        'Industrial Grade': 1,
+        'Mil-Spec Grade': 2,
+        'Restricted': 3,
+        'Classified': 4,
+        'Covert': 5,
+        'Exceedingly Rare': 6
+    }
+
+    # Initialize the total cost
+    total_cost = 0
+
+    # Get the price of the desired skin
+    desired_skin_data = scrape_and_save_prices(desired_skin, desired_wear)
+    if desired_skin_data['success']:
+        desired_skin_price = float(desired_skin_data['lowest_price'].strip('$'))
+    else:
+        desired_skin_price = 0
+
+    # Find the collection and rarity of the desired skin
+    desired_collection = None
+    desired_rarity = None
+    for collection_name, collection in collections_data.items():
+        for rarity_name, skins in collection.items():
+            if desired_skin in skins:
+                desired_collection = collection_name
+                desired_rarity = rarity_mapping[rarity_name]
+                break
+        if desired_collection is not None:
+            break
+
+    # Find the skins of one step lower rarity in the same collection
+    lower_rarity_skins = collections_data[desired_collection][list(rarity_mapping.keys())[desired_rarity - 1]]
+
+    # Get the prices of the lower rarity skins and keep track of the skins used
+    lower_rarity_prices = []
+    skins_used = {}
+    for skin in lower_rarity_skins:
+        data = scrape_and_save_prices(skin, desired_wear)
+        if 'lowest_price' not in data:
+            continue
+        lower_rarity_prices.append((skin, float(data['lowest_price'].strip('$'))))
+
+    # Sort the prices
+    lower_rarity_prices.sort(key=lambda x: x[1])
+
+    # Fill the contract with the cheapest skins
+    skins_used = {}
+    for skin, price in lower_rarity_prices:
+        while total_cost + price <= desired_skin_price and len(skins_used) < 10:
+            total_cost += price
+            skins_used[skin] = skins_used.get(skin, 0) + 1
+
+    # Define the skins of the same rarity as the desired skin
+    same_rarity_skins = collections_data[desired_collection][list(rarity_mapping.keys())[desired_rarity]]
+
+    # Calculate the probability of getting the desired skin
+    probability = 1 / len(same_rarity_skins)
+
+    # Return the total input cost, the probability, the skins used, and the price of the desired skin
+    return total_cost, probability, skins_used, desired_skin_price, desired_collection
+
+
+def test_trade_up_value():
+    desired_skin = "M4A4 | Temukau"
+    desired_wear = "Factory New"
+
+    total_cost, probability, skins_used, desired_skin_price, desired_collection = trade_up_calculator(desired_skin, desired_wear)
+
+    # Calculate the profit or loss
+    profit_or_loss = desired_skin_price - total_cost
+
+    # Determine whether it's a profit or loss
+    result = 'Profit' if profit_or_loss > 0 else 'Loss'
+
+    # Print the results to the terminal
+    print(f'Total cost: ${total_cost:.2f}')
+    print(f'Probability: {probability*100:.2f}%')
+    print(f'Skins used in the contract:')
+    for skin, count in skins_used.items():
+        print(f'  {skin}: {count}')
+    print(f'Collection of skins used: {desired_collection}')
+    print(f'Price of desired skin: ${desired_skin_price:.2f}')
+    print(f'{result}: ${abs(profit_or_loss):.2f}')
+
+
+item_id = get_cheapest_item_id('AWP | Duality (Factory New)')
+print(item_id)

@@ -1,0 +1,155 @@
+{
+    "The Anubis Collection": {
+        "Covert": [
+            {
+                "name": "M4A4 | Eye of Horus"
+            }
+        ],
+        "Classified": [
+            {
+                "name": "FAMAS | Waters of Nephthys"
+            },
+            {
+                "name": "P250 | Apep's Curse"
+            }
+        ],
+        "Restricted": [
+            {
+                "name": "Glock-18 | Ramese's Reach"
+            },
+            {
+                "name": "Nova | Sobek's Bite"
+            },
+            {
+                "name": "P90 | ScaraB Rush"
+            }
+        ],
+        "Mil-Spec": [
+            {
+                "name": "AWP | Black Nile"
+            },
+            {
+                "name": "AK-47 | Steel Delta"
+            },
+            {
+                "name": "MAG-7 | Copper Coated"
+            },
+            {
+                "name": "Tec-9 | Mummy's Rot"
+            }
+        ],
+        "Industrial Grade": [
+            {
+                "name": "M4A1-S | Mud-Spec"
+            },
+            {
+                "name": "USP-S | Desert Tactical"
+            },
+            {
+                "name": "MAC-10 | Echoing Sands"
+            },
+            {
+                "name": "SSG 08 | Azure Glyph"
+            }
+        ],
+        "Consumer Grade": [
+            {
+                "name": "MP7 | Sunbaked"
+            },
+            {
+                "name": "XM1014 | Hieroglyph"
+            },
+            {
+                "name": "M249 | Submerged"
+            },
+            {
+                "name": "R8 Revolver | Inlay"
+            },
+            {
+                "name": "AUG | Snake Pit"
+            }
+        ]
+    },
+    "The Revolution Collection": {
+        "Covert": [
+            {
+                "name": "M4A4 | Temukau"
+            },
+            {
+                "name": "AK-47 | Head Shot"
+            }
+        ],
+        "Classified": [
+            {
+                "name": "AWP | Duality"
+            },
+            {
+                "name": "P2000 | Wicked Sick"
+            },
+            {
+                "name": "UMP-45 | Wild Child"
+            }
+        ],
+        "Restricted": [
+            {
+                "name": "M4A1-S | Emphorosaur-S"
+            },
+            {
+                "name": "Glock-18 | Umbral Rabbit"
+            },
+            {
+                "name": "R8 Revolver | Banana Cannon"
+            },
+            {
+                "name": "P90 | Neoqueen"
+            },
+            {
+                "name": "MAC-10 | Sakkaku"
+            }
+        ],
+        "Mil-Spec": [
+            {
+                "name": "MP5-SD | Liquidation"
+            },
+            {
+                "name": "MP9 | Featherweight"
+            },
+            {
+                "name": "P250 | Re.built"
+            },
+            {
+                "name": "MAG-7 | Insomnia"
+            },
+            {
+                "name": "Tec-9 | Rebel"
+            },
+            {
+                "name": "SCAR-20 | Fragments"
+            },
+            {
+                "name": "SG 553 | Cyberforce"
+            }
+        ]
+    },
+    "The Kilowatt Collection": {
+        "Covert": [
+            {
+                "name": "AK-47 | Inheritance"
+            },
+            {
+                "name": "AWP | Chrome Cannon"
+            }
+        ],
+        "Classified": [
+            {
+                "name": "M4A1-S | Black Lotus"
+            },
+            {
+                "name": "USP-S | Jawbreaker"
+            },
+            {
+                "name": "Zeus x27 | Olympus"
+            }
+        ]
+    }
+}

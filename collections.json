@@ -1,0 +1,1994 @@
+{
+    "The Kilowatt Collection": {
+        "Covert": [
+            "AK-47 | Inheritance",
+            "AWP | Chrome Cannon"
+        ],
+        "Classified": [
+            "M4A1-S | Black Lotus",
+            "USP-S | Jawbreaker",
+            "Zeus x27 | Olympus"
+        ],
+        "Restricted": [
+            "Glock-18 | Block-18",
+            "M4A4 | Etch Lord",
+            "Five-SeveN | Hybrid",
+            "MP7 | Just Smile",
+            "Sawed-Off | Analog Input"
+        ],
+        "Mil-Spec": [
+            "MAC-10 | Light Box",
+            "SSG 08 | Dezastre",
+            "Tec-9 | Slag",
+            "XM1014 | Irezumi",
+            "UMP-45 | Motorized",
+            "Nova | Dark Sigil",
+            "Dual Berettas | Hideout"
+        ]
+    },
+    "The Anubis Collection": {
+        "Covert": [
+            "M4A4 | Eye of Horus"
+        ],
+        "Classified": [
+            "FAMAS | Waters of Nephthys",
+            "P250 | Apep's Curse"
+        ],
+        "Restricted": [
+            "Glock-18 | Ramese's Reach",
+            "Nova | Sobek's Bite",
+            "P90 | ScaraB Rush"
+        ],
+        "Mil-Spec": [
+            "AWP | Black Nile",
+            "AK-47 | Steel Delta",
+            "Tec-9 | Mummy's Rot",
+            "MAG-7 | Copper Coated"
+        ],
+        "Industrial Grade": [
+            "M4A1-S | Mud-Spec",
+            "USP-S | Desert Tactical",
+            "MAC-10 | Echoing Sands",
+            "SSG 08 | Azure Glyph"
+        ],
+        "Consumer Grade": [
+            "MP7 | Sunbaked",
+            "XM1014 | Hieroglyph",
+            "M249 | Submerged",
+            "R8 Revolver | Inlay",
+            "AUG | Snake Pit"
+        ]
+    },
+    "The Revolution Collection": {
+        "Covert": [
+            "M4A4 | Temukau",
+            "AK-47 | Head Shot"
+        ],
+        "Classified": [
+            "P2000 | Wicked Sick",
+            "AWP | Duality",
+            "UMP-45 | Wild Child"
+        ],
+        "Restricted": [
+            "M4A1-S | Emphorosaur-S",
+            "R8 Revolver | Banana Cannon",
+            "Glock-18 | Umbral Rabbit",
+            "P90 | Neoqueen",
+            "MAC-10 | Sakkaku"
+        ],
+        "Mil-Spec": [
+            "MP5-SD | Liquidation",
+            "P250 | Re.built",
+            "MAG-7 | Insomnia",
+            "MP9 | Featherweight",
+            "Tec-9 | Rebel",
+            "SCAR-20 | Fragments",
+            "SG 553 | Cyberforce"
+        ]
+    },
+    "The Recoil Collection": {
+        "Covert": [
+            "USP-S | Printstream",
+            "AWP | Chromatic Aberration"
+        ],
+        "Classified": [
+            "AK-47 | Ice Coaled",
+            "Sawed-Off | Kiss\u2665Love",
+            "P250 | Visions"
+        ],
+        "Restricted": [
+            "Dual Berettas | Flora Carnivora",
+            "R8 Revolver | Crazy 8",
+            "P90 | Vent Rush",
+            "SG 553 | Dragon Tech",
+            "M249 | Downtown"
+        ],
+        "Mil-Spec": [
+            "M4A4 | Poly Mag",
+            "FAMAS | Meow 36",
+            "Glock-18 | Winterized",
+            "UMP-45 | Roadblock",
+            "Negev | Drop Me",
+            "MAC-10 | Monkeyflage",
+            "Galil AR | Destroyer"
+        ]
+    },
+    "The Dreams & Nightmares Collection": {
+        "Covert": [
+            "AK-47 | Nightwish",
+            "MP9 | Starlight Protector"
+        ],
+        "Classified": [
+            "FAMAS | Rapid Eye Movement",
+            "Dual Berettas | Melondrama",
+            "MP7 | Abyssal Apparition"
+        ],
+        "Restricted": [
+            "USP-S | Ticket to Hell",
+            "M4A1-S | Night Terror",
+            "G3SG1 | Dream Glade",
+            "PP-Bizon | Space Cat",
+            "XM1014 | Zombie Offensive"
+        ],
+        "Mil-Spec": [
+            "Five-SeveN | Scrawl",
+            "MAC-10 | Ensnared",
+            "MP5-SD | Necro Jr.",
+            "P2000 | Lifted Spirits",
+            "Sawed-Off | Spirit Board",
+            "MAG-7 | Foresight",
+            "SCAR-20 | Poultrygeist"
+        ]
+    },
+    "The 2021 Train Collection": {
+        "Covert": [
+            "Glock-18 | Gamma Doppler Emerald",
+            "M4A4 | The Coalition",
+            "Glock-18 | Gamma Doppler Phase 2",
+            "Glock-18 | Gamma Doppler Phase 4",
+            "Glock-18 | Gamma Doppler Phase 1",
+            "Glock-18 | Gamma Doppler Phase 3"
+        ],
+        "Classified": [
+            "USP-S | Whiteout",
+            "FAMAS | Meltdown",
+            "MAC-10 | Propaganda"
+        ],
+        "Restricted": [
+            "AWP | POP AWP",
+            "Nova | Red Quartz",
+            "MP5-SD | Autumn Twilly",
+            "P2000 | Space Race",
+            "CZ75-Auto | Syndicate"
+        ],
+        "Mil-Spec": [
+            "M4A1-S | Fizzy POP",
+            "Desert Eagle | Sputnik",
+            "R8 Revolver | Blaze",
+            "AUG | Amber Fade",
+            "SSG 08 | Spring Twilly",
+            "UMP-45 | Full Stop",
+            "Tec-9 | Safety Net"
+        ]
+    },
+    "The 2021 Dust 2 Collection": {
+        "Covert": [
+            "AK-47 | Gold Arabesque"
+        ],
+        "Classified": [
+            "SSG 08 | Death Strike",
+            "UMP-45 | Fade"
+        ],
+        "Restricted": [
+            "M4A4 | Red DDPAT",
+            "MAC-10 | Case Hardened",
+            "USP-S | Orange Anolis"
+        ],
+        "Mil-Spec": [
+            "P250 | Black & Tan",
+            "Nova | Quick Sand",
+            "Galil AR | Amber Fade",
+            "G3SG1 | New Roots"
+        ],
+        "Industrial Grade": [
+            "Five-SeveN | Withered Vine",
+            "AUG | Spalted Wood",
+            "M249 | Midnight Palm",
+            "MP9 | Old Roots"
+        ],
+        "Consumer Grade": [
+            "SG 553 | Bleached",
+            "P90 | Desert DDPAT",
+            "MP7 | Prey",
+            "Sawed-Off | Parched",
+            "R8 Revolver | Desert Brush"
+        ]
+    },
+    "The 2021 Mirage Collection": {
+        "Covert": [
+            "AWP | Desert Hydra"
+        ],
+        "Classified": [
+            "Desert Eagle | Fennec Fox",
+            "MP5-SD | Oxide Oasis"
+        ],
+        "Restricted": [
+            "Glock-18 | Pink DDPAT",
+            "XM1014 | Elegant Vines",
+            "AUG | Sand Storm"
+        ],
+        "Mil-Spec": [
+            "USP-S | Purple DDPAT",
+            "MP9 | Music Box",
+            "M249 | Humidor",
+            "SG 553 | Desert Blossom"
+        ],
+        "Industrial Grade": [
+            "P90 | Verdant Growth",
+            "CZ75-Auto | Midnight Palm",
+            "FAMAS | CaliCamo",
+            "Dual Berettas | Drift Wood"
+        ],
+        "Consumer Grade": [
+            "MAG-7 | Navy Sheen",
+            "P250 | Drought",
+            "MAC-10 | Sienna Damask",
+            "PP-Bizon | Anolis",
+            "SSG 08 | Prey"
+        ]
+    },
+    "The Operation Riptide Collection": {
+        "Covert": [
+            "Desert Eagle | Ocean Drive",
+            "AK-47 | Leet Museo"
+        ],
+        "Classified": [
+            "Glock-18 | Snack Attack",
+            "SSG 08 | Turbo Peek",
+            "MAC-10 | Toybox"
+        ],
+        "Restricted": [
+            "M4A4 | Spider Lily",
+            "MP9 | Mount Fuji",
+            "FAMAS | ZX Spectron",
+            "Five-SeveN | Boost Protocol",
+            "MAG-7 | BI83 Spectrum"
+        ],
+        "Mil-Spec": [
+            "USP-S | Black Lotus",
+            "XM1014 | Watchdog",
+            "PP-Bizon | Lumen",
+            "MP7 | Guerrilla",
+            "Dual Berettas | Tread",
+            "AUG | Plague",
+            "G3SG1 | Keeping Tabs"
+        ]
+    },
+    "The 2021 Vertigo Collection": {
+        "Covert": [
+            "M4A1-S | Imminent Danger"
+        ],
+        "Classified": [
+            "Five-SeveN | Fall Hazard",
+            "SG 553 | Hazard Pay"
+        ],
+        "Restricted": [
+            "Galil AR | CAUTION!",
+            "P250 | Digital Architect",
+            "MAG-7 | Prism Terrace"
+        ],
+        "Mil-Spec": [
+            "AK-47 | Green Laminate",
+            "Nova | Interlock",
+            "P90 | Schematic",
+            "Negev | Infrastructure"
+        ],
+        "Industrial Grade": [
+            "UMP-45 | Mechanism",
+            "Glock-18 | Red Tire",
+            "PP-Bizon | Breaker Box",
+            "SSG 08 | Carbon Fiber"
+        ],
+        "Consumer Grade": [
+            "CZ75-Auto | Framework",
+            "XM1014 | Blue Tire",
+            "MAC-10 | Strats",
+            "FAMAS | Faulty Wiring",
+            "Dual Berettas | Oil Change"
+        ]
+    },
+    "The Snakebite Collection": {
+        "Covert": [
+            "USP-S | The Traitor",
+            "M4A4 | In Living Color"
+        ],
+        "Restricted": [
+            "AK-47 | Slate",
+            "Desert Eagle | Trigger Discipline",
+            "MAC-10 | Button Masher",
+            "P250 | Cyber Shell",
+            "Negev | dev_texture"
+        ],
+        "Classified": [
+            "Galil AR | Chromatic Aberration",
+            "MP9 | Food Chain",
+            "XM1014 | XOXO"
+        ],
+        "Mil-Spec": [
+            "Glock-18 | Clear Polymer",
+            "R8 Revolver | Junk Yard",
+            "CZ75-Auto | Circaetus",
+            "SG 553 | Heavy Metal",
+            "Nova | Windblown",
+            "M249 | O.S.I.P.R.",
+            "UMP-45 | Oscillator"
+        ]
+    },
+    "The Operation Broken Fang Collection": {
+        "Covert": [
+            "M4A1-S | Printstream",
+            "Glock-18 | Neo-Noir"
+        ],
+        "Classified": [
+            "M4A4 | Cyber Security",
+            "USP-S | Monster Mashup",
+            "Five-SeveN | Fairy Tale"
+        ],
+        "Restricted": [
+            "AWP | Exoskeleton",
+            "Nova | Clear Polymer",
+            "UMP-45 | Gold Bismuth",
+            "Dual Berettas | Dezastre",
+            "SSG 08 | Parallax"
+        ],
+        "Mil-Spec": [
+            "Galil AR | Vandal",
+            "MP5-SD | Condition Zero",
+            "CZ75-Auto | Vendetta",
+            "M249 | Deep Relief",
+            "P250 | Contaminant",
+            "P90 | Cocoa Rampage",
+            "G3SG1 | Digital Mesh"
+        ]
+    },
+    "The Ancient Collection": {
+        "Covert": [
+            "M4A1-S | Welcome to the Jungle"
+        ],
+        "Classified": [
+            "AK-47 | Panthera onca",
+            "P90 | Run and Hide"
+        ],
+        "Restricted": [
+            "MAC-10 | Gold Brick",
+            "USP-S | Ancient Visions",
+            "XM1014 | Ancient Lore"
+        ],
+        "Mil-Spec": [
+            "AUG | Carved Jade",
+            "Galil AR | Dusk Ruins",
+            "Tec-9 | Blast From the Past",
+            "FAMAS | Dark Water"
+        ],
+        "Industrial Grade": [
+            "CZ75-Auto | Silver",
+            "MP7 | Tall Grass",
+            "G3SG1 | Ancient Ritual",
+            "P2000 | Panther Camo"
+        ],
+        "Consumer Grade": [
+            "R8 Revolver | Night",
+            "SSG 08 | Jungle Dashed",
+            "SG 553 | Lush Ruins",
+            "Nova | Army Sheen",
+            "P90 | Ancient Earth"
+        ]
+    },
+    "The Havoc Collection": {
+        "Covert": [
+            "AK-47 | X-Ray"
+        ],
+        "Classified": [
+            "AWP | Silk Tiger",
+            "MAC-10 | Hot Snakes"
+        ],
+        "Restricted": [
+            "Galil AR | Phoenix Blacklight",
+            "SG 553 | Hypnotic",
+            "Glock-18 | Franklin"
+        ],
+        "Mil-Spec": [
+            "P250 | Bengal Tiger",
+            "Desert Eagle | Night Heist",
+            "P90 | Tiger Pit",
+            "Negev | Phoenix Stencil"
+        ],
+        "Industrial Grade": [
+            "Nova | Rust Coat",
+            "R8 Revolver | Phoenix Marker",
+            "MP7 | Vault Heist",
+            "UMP-45 | Houndstooth"
+        ],
+        "Consumer Grade": [
+            "M249 | Predator",
+            "Dual Berettas | Heist",
+            "Tec-9 | Phoenix Chalk",
+            "Sawed-Off | Clay Ambush",
+            "PP-Bizon | Death Rattle"
+        ]
+    },
+    "The Control Collection": {
+        "Covert": [
+            "AWP | Fade"
+        ],
+        "Classified": [
+            "M4A1-S | Blue Phosphor",
+            "USP-S | Target Acquired"
+        ],
+        "Restricted": [
+            "Five-SeveN | Berries And Cherries",
+            "FAMAS | Prime Conspiracy",
+            "UMP-45 | Crime Scene"
+        ],
+        "Mil-Spec": [
+            "M4A4 | Global Offensive",
+            "SCAR-20 | Magna Carta",
+            "P2000 | Dispatch",
+            "SSG 08 | Threat Detected"
+        ],
+        "Industrial Grade": [
+            "MP5-SD | Nitro",
+            "Dual Berettas | Switch Board",
+            "Desert Eagle | The Bronze",
+            "MAG-7 | Carbon Fiber"
+        ],
+        "Consumer Grade": [
+            "P250 | Forest Night",
+            "CZ75-Auto | Jungle Dashed",
+            "MP9 | Army Sheen",
+            "AUG | Surveillance",
+            "XM1014 | Charter"
+        ]
+    },
+    "The Fracture Collection": {
+        "Covert": [
+            "Desert Eagle | Printstream",
+            "AK-47 | Legion of Anubis"
+        ],
+        "Classified": [
+            "Glock-18 | Vogue",
+            "M4A4 | Tooth Fairy",
+            "XM1014 | Entombed"
+        ],
+        "Restricted": [
+            "MAG-7 | Monster Call",
+            "MAC-10 | Allure",
+            "Tec-9 | Brother",
+            "MP5-SD | Kitbash",
+            "Galil AR | Connexion"
+        ],
+        "Mil-Spec": [
+            "SSG 08 | Mainframe 001",
+            "PP-Bizon | Runic",
+            "P2000 | Gnarled",
+            "P90 | Freight",
+            "P250 | Cassette",
+            "Negev | Ultralight",
+            "SG 553 | Ol' Rusty"
+        ]
+    },
+    "The Prisma 2 Collection": {
+        "Covert": [
+            "M4A1-S | Player Two",
+            "Glock-18 | Bullet Queen"
+        ],
+        "Classified": [
+            "MAC-10 | Disco Tech",
+            "MAG-7 | Justice",
+            "AK-47 | Phantom Disruptor"
+        ],
+        "Mil-Spec": [
+            "AWP | Capillary",
+            "Desert Eagle | Blue Ply",
+            "CZ75-Auto | Distressed",
+            "AUG | Tom Cat",
+            "MP5-SD | Desert Strike",
+            "Negev | Prototype",
+            "R8 Revolver | Bone Forged"
+        ],
+        "Restricted": [
+            "P2000 | Acid Etched",
+            "SSG 08 | Fever Dream",
+            "SCAR-20 | Enforcer",
+            "SG 553 | Darkwing",
+            "Sawed-Off | Apocalypto"
+        ]
+    },
+    "The St. Marc Collection": {
+        "Covert": [
+            "AK-47 | Wild Lotus"
+        ],
+        "Classified": [
+            "MP9 | Wild Lily"
+        ],
+        "Restricted": [
+            "Glock-18 | Synth Leaf",
+            "AUG | Midnight Lily",
+            "SSG 08 | Sea Calico"
+        ],
+        "Mil-Spec": [
+            "Five-SeveN | Crimson Blossom",
+            "UMP-45 | Day Lily",
+            "MP7 | Teal Blossom",
+            "FAMAS | Sundown"
+        ],
+        "Industrial Grade": [
+            "Tec-9 | Rust Leaf",
+            "M4A4 | Dark Blossom",
+            "P90 | Sunset Lily",
+            "XM1014 | Banana Leaf"
+        ],
+        "Consumer Grade": [
+            "M249 | Jungle",
+            "Sawed-Off | Jungle Thicket",
+            "MAC-10 | Surfwood",
+            "MP5-SD | Bamboo Garden",
+            "PP-Bizon | Seabird"
+        ]
+    },
+    "The Canals Collection": {
+        "Covert": [
+            "AWP | The Prince"
+        ],
+        "Classified": [
+            "MAG-7 | Cinquedea"
+        ],
+        "Restricted": [
+            "MP9 | Stained Glass",
+            "MAC-10 | Red Filigree",
+            "Nova | Baroque Orange"
+        ],
+        "Mil-Spec": [
+            "Dual Berettas | Emerald",
+            "SSG 08 | Orange Filigree",
+            "P90 | Baroque Red",
+            "G3SG1 | Violet Murano"
+        ],
+        "Industrial Grade": [
+            "AK-47 | Baroque Purple",
+            "SG 553 | Candy Apple",
+            "Tec-9 | Orange Murano",
+            "P250 | Dark Filigree"
+        ],
+        "Consumer Grade": [
+            "R8 Revolver | Canal Spray",
+            "AUG | Navy Murano",
+            "CZ75-Auto | Indigo",
+            "Negev | Boroque Sand",
+            "SCAR-20 | Stone Mosaico"
+        ]
+    },
+    "The Norse Collection": {
+        "Covert": [
+            "AWP | Gungnir"
+        ],
+        "Classified": [
+            "Negev | Mj\u00f6lnir"
+        ],
+        "Restricted": [
+            "Desert Eagle | Emerald J\u00f6rmungandr",
+            "P90 | Astral J\u00f6rmungandr",
+            "AUG | Flame J\u00f6rmungandr"
+        ],
+        "Mil-Spec": [
+            "CZ75-Auto | Emerald Quartz",
+            "MAC-10 | Copper Borre",
+            "XM1014 | Frost Borre",
+            "SCAR-20 | Brass"
+        ],
+        "Industrial Grade": [
+            "M4A1-S | Moss Quartz",
+            "Dual Berettas | Pyre",
+            "MAG-7 | Chainmail",
+            "USP-S | Pathfinder"
+        ],
+        "Consumer Grade": [
+            "SSG 08 | Red Stone",
+            "Galil AR | Tornado",
+            "MP7 | Scorched",
+            "SG 553 | Barricade",
+            "FAMAS | Night Borre"
+        ]
+    },
+    "The Shattered Web Collection": {
+        "Covert": [
+            "AWP | Containment Breach",
+            "MAC-10 | Stalker"
+        ],
+        "Classified": [
+            "SSG 08 | Bloodshot",
+            "Tec-9 | Decimator",
+            "SG 553 | Colony IV"
+        ],
+        "Restricted": [
+            "AK-47 | Rat Rod",
+            "P2000 | Obsidian",
+            "PP-Bizon | Embargo",
+            "AUG | Arctic Wolf",
+            "MP7 | Neon Ply"
+        ],
+        "Mil-Spec": [
+            "Dual Berettas | Balance",
+            "M249 | Warbird",
+            "R8 Revolver | Memento",
+            "SCAR-20 | Torn",
+            "G3SG1 | Black Sand",
+            "Nova | Plume",
+            "MP5-SD | Acid Wash"
+        ]
+    },
+    "The CS20 Collection": {
+        "Covert": [
+            "AWP | Wildfire",
+            "FAMAS | Commemoration"
+        ],
+        "Classified": [
+            "MP9 | Hydra",
+            "P90 | Nostalgia",
+            "AUG | Death by Puppy"
+        ],
+        "Restricted": [
+            "P250 | Inferno",
+            "MP5-SD | Agent",
+            "Five-SeveN | Buddy",
+            "M249 | Aztec",
+            "UMP-45 | Plastique"
+        ],
+        "Mil-Spec": [
+            "MAG-7 | Popdog",
+            "Glock-18 | Sacrifice",
+            "FAMAS | Decommissioned",
+            "MAC-10 | Classic Crate",
+            "Dual Berettas | Elite 1.6",
+            "Tec-9 | Flash Out",
+            "SCAR-20 | Assault"
+        ]
+    },
+    "The X-Ray Collection": {
+        "Restricted": [
+            "P250 | X-Ray"
+        ]
+    },
+    "The Prisma Collection": {
+        "Covert": [
+            "M4A4 | The Emperor",
+            "Five-SeveN | Angry Mob"
+        ],
+        "Classified": [
+            "AUG | Momentum",
+            "XM1014 | Incinegator",
+            "R8 Revolver | Skull Crusher"
+        ],
+        "Restricted": [
+            "AWP | Atheris",
+            "Desert Eagle | Light Rail",
+            "Tec-9 | Bamboozle",
+            "MP5-SD | Gauss",
+            "UMP-45 | Moonrise"
+        ],
+        "Mil-Spec": [
+            "AK-47 | Uncharted",
+            "MAC-10 | Whitefish",
+            "P250 | Verdigris",
+            "Galil AR | Akoben",
+            "P90 | Off World",
+            "FAMAS | Crypsis",
+            "MP7 | Mischief"
+        ]
+    },
+    "The Clutch Collection": {
+        "Covert": [
+            "M4A4 | Neo-Noir",
+            "MP7 | Bloodsport"
+        ],
+        "Classified": [
+            "USP-S | Cortex",
+            "AUG | Stymphalian",
+            "AWP | Mortis"
+        ],
+        "Restricted": [
+            "Glock-18 | Moonrise",
+            "Negev | Lionfish",
+            "UMP-45 | Arctic Wolf",
+            "Nova | Wild Six",
+            "MAG-7 | SWAG-7"
+        ],
+        "Mil-Spec": [
+            "R8 Revolver | Grip",
+            "MP9 | Black Sand",
+            "P2000 | Urban Hazard",
+            "Five-SeveN | Flame Test",
+            "PP-Bizon | Night Riot",
+            "XM1014 | Oxide Blaze",
+            "SG 553 | Aloha"
+        ]
+    },
+    "The Blacksite Collection": {
+        "Restricted": [
+            "MP5-SD | Lab Rats"
+        ]
+    },
+    "The Danger Zone Collection": {
+        "Covert": [
+            "AK-47 | Asiimov",
+            "AWP | Neo-Noir"
+        ],
+        "Classified": [
+            "Desert Eagle | Mecha Industries",
+            "MP5-SD | Phosphor",
+            "UMP-45 | Momentum"
+        ],
+        "Restricted": [
+            "MAC-10 | Pipe Down",
+            "G3SG1 | Scavenger",
+            "P250 | Nevermore",
+            "Galil AR | Signal",
+            "USP-S | Flashback"
+        ],
+        "Mil-Spec": [
+            "M4A4 | Magnesium",
+            "Tec-9 | Fubar",
+            "Glock-18 | Oxide Blaze",
+            "SG 553 | Danger Close",
+            "MP9 | Modest Threat",
+            "Nova | Wood Fired",
+            "Sawed-Off | Black Sand"
+        ]
+    },
+    "The 2018 Inferno Collection": {
+        "Classified": [
+            "SG 553 | Integrale",
+            "Dual Berettas | Twin Turbo"
+        ],
+        "Restricted": [
+            "AK-47 | Safety Net",
+            "MP7 | Fade",
+            "P250 | Vino Primo"
+        ],
+        "Mil-Spec": [
+            "USP-S | Check Engine",
+            "SSG 08 | Hand Brake",
+            "M4A4 | Converter",
+            "Sawed-Off | Brake Light"
+        ],
+        "Industrial Grade": [
+            "R8 Revolver | Nitro",
+            "MAC-10 | Calf Skin",
+            "Glock-18 | High Beam",
+            "PP-Bizon | Candy Apple"
+        ],
+        "Consumer Grade": [
+            "MP9 | Slide",
+            "UMP-45 | Mudder",
+            "MP5-SD | Dirt Drop",
+            "MAG-7 | Rust Coat",
+            "AUG | Sweeper"
+        ]
+    },
+    "The 2018 Nuke Collection": {
+        "Classified": [
+            "M4A1-S | Control Panel",
+            "Tec-9 | Remote Control"
+        ],
+        "Restricted": [
+            "Glock-18 | Nuclear Garden",
+            "AUG | Random Access",
+            "MAG-7 | Core Breach"
+        ],
+        "Mil-Spec": [
+            "AWP | Acheron",
+            "MP5-SD | Co-Processor",
+            "P90 | Facility Negative",
+            "P250 | Exchanger"
+        ],
+        "Industrial Grade": [
+            "Galil AR | Cold Fusion",
+            "Negev | Bulkhead",
+            "M4A4 | Mainframe",
+            "MP7 | Motherboard"
+        ],
+        "Consumer Grade": [
+            "PP-Bizon | Facility Sketch",
+            "Five-SeveN | Coolant",
+            "P250 | Facility Draft",
+            "Nova | Mandrel",
+            "UMP-45 | Facility Dark"
+        ]
+    },
+    "The Horizon Collection": {
+        "Covert": [
+            "AK-47 | Neon Rider",
+            "Desert Eagle | Code Red"
+        ],
+        "Classified": [
+            "M4A1-S | Nightmare",
+            "Sawed-Off | Devourer",
+            "FAMAS | Eye of Athena"
+        ],
+        "Restricted": [
+            "AWP | PAW",
+            "MP7 | Powercore",
+            "CZ75-Auto | Eco",
+            "Nova | Toy Soldier",
+            "G3SG1 | High Seas"
+        ],
+        "Mil-Spec": [
+            "P90 | Traction",
+            "Tec-9 | Snek-9",
+            "Glock-18 | Warhawk",
+            "MP9 | Capillary",
+            "R8 Revolver | Survivalist",
+            "Dual Berettas | Shred",
+            "AUG | Amber Slipstream"
+        ]
+    },
+    "The Spectrum 2 Collection": {
+        "Covert": [
+            "AK-47 | The Empress",
+            "P250 | See Ya Later"
+        ],
+        "Classified": [
+            "M4A1-S | Leaded Glass",
+            "R8 Revolver | Llama Cannon",
+            "PP-Bizon | High Roller"
+        ],
+        "Restricted": [
+            "UMP-45 | Exposure",
+            "XM1014 | Ziggy",
+            "CZ75-Auto | Tacticat",
+            "MP9 | Goo",
+            "SG 553 | Phantom"
+        ],
+        "Mil-Spec": [
+            "Glock-18 | Off World",
+            "AUG | Triqua",
+            "Tec-9 | Cracked Opal",
+            "G3SG1 | Hunter",
+            "Sawed-Off | Morris",
+            "MAC-10 | Oceanic",
+            "SCAR-20 | Jungle Slipstream"
+        ]
+    },
+    "Operation Hydra": {
+        "Covert": [
+            "AWP | Oni Taiji",
+            "Five-SeveN | Hyper Beast"
+        ],
+        "Classified": [
+            "M4A4 | Hellfire",
+            "Galil AR | Sugar Rush",
+            "Dual Berettas | Cobra Strike"
+        ],
+        "Mil-Spec": [
+            "USP-S | Blueprint",
+            "M4A1-S | Briefing",
+            "Tec-9 | Cut Out",
+            "FAMAS | Macabre",
+            "MAG-7 | Hard Water",
+            "MAC-10 | Aloha",
+            "UMP-45 | Metal Flowers"
+        ],
+        "Restricted": [
+            "AK-47 | Orbit Mk01",
+            "P90 | Death Grip",
+            "SSG 08 | Death's Head",
+            "P2000 | Woodsman",
+            "P250 | Red Rock"
+        ]
+    },
+    "The Spectrum Collection": {
+        "Covert": [
+            "AK-47 | Bloodsport",
+            "USP-S | Neo-Noir"
+        ],
+        "Classified": [
+            "M4A1-S | Decimator",
+            "AWP | Fever Dream",
+            "CZ75-Auto | Xiangliu"
+        ],
+        "Restricted": [
+            "UMP-45 | Scaffold",
+            "Galil AR | Crimson Tsunami",
+            "M249 | Emerald Poison Dart",
+            "XM1014 | Seasons",
+            "MAC-10 | Last Dive"
+        ],
+        "Mil-Spec": [
+            "MP7 | Akoben",
+            "Desert Eagle | Oxide Blaze",
+            "Sawed-Off | Zander",
+            "SCAR-20 | Blueprint",
+            "Five-SeveN | Capillary",
+            "P250 | Ripple",
+            "PP-Bizon | Jungle Slipstream"
+        ]
+    },
+    "The Glove Collection": {
+        "Covert": [
+            "M4A4 | Buzz Kill",
+            "SSG 08 | Dragonfire"
+        ],
+        "Classified": [
+            "FAMAS | Mecha Industries",
+            "Sawed-Off | Wasteland Princess",
+            "P90 | Shallow Grave"
+        ],
+        "Restricted": [
+            "USP-S | Cyrex",
+            "M4A1-S | Flashback",
+            "Dual Berettas | Royal Consorts",
+            "Nova | Gila",
+            "G3SG1 | Stinger"
+        ],
+        "Mil-Spec": [
+            "Glock-18 | Ironwork",
+            "P2000 | Turf",
+            "MP7 | Cirrus",
+            "Galil AR | Black Sand",
+            "MP9 | Sand Scale",
+            "CZ75-Auto | Polymer",
+            "MAG-7 | Sonar"
+        ]
+    },
+    "The Gamma 2 Collection": {
+        "Covert": [
+            "AK-47 | Neon Revolution",
+            "FAMAS | Roll Cage"
+        ],
+        "Classified": [
+            "Tec-9 | Fuel Injector",
+            "MP9 | Airlock",
+            "AUG | Syd Mead"
+        ],
+        "Restricted": [
+            "Desert Eagle | Directive",
+            "Glock-18 | Weasel",
+            "SCAR-20 | Powercore",
+            "SG 553 | Triarch",
+            "MAG-7 | Petroglyph"
+        ],
+        "Mil-Spec": [
+            "P90 | Grim",
+            "CZ75-Auto | Imprint",
+            "Five-SeveN | Scumbria",
+            "Negev | Dazzle",
+            "XM1014 | Slipstream",
+            "UMP-45 | Briefing",
+            "G3SG1 | Ventilator"
+        ]
+    },
+    "The Gamma Collection": {
+        "Covert": [
+            "M4A1-S | Mecha Industries",
+            "Glock-18 | Wasteland Rebel"
+        ],
+        "Classified": [
+            "M4A4 | Desolate Space",
+            "P2000 | Imperial Dragon",
+            "SCAR-20 | Bloodsport"
+        ],
+        "Restricted": [
+            "R8 Revolver | Reboot",
+            "AWP | Phobos",
+            "Sawed-Off | Limelight",
+            "P90 | Chopper",
+            "AUG | Aristocrat"
+        ],
+        "Mil-Spec": [
+            "PP-Bizon | Harvester",
+            "P250 | Iron Clad",
+            "Five-SeveN | Violent Daimyo",
+            "Tec-9 | Ice Cap",
+            "MAC-10 | Carnivore",
+            "SG 553 | Aerial",
+            "Nova | Exo"
+        ]
+    },
+    "The Chroma 3 Collection": {
+        "Covert": [
+            "M4A1-S | Chantico's Fire",
+            "PP-Bizon | Judgement of Anubis"
+        ],
+        "Classified": [
+            "P250 | Asiimov",
+            "AUG | Fleet Flock",
+            "UMP-45 | Primal Saber"
+        ],
+        "Restricted": [
+            "SSG 08 | Ghost Crusader",
+            "XM1014 | Black Tie",
+            "Galil AR | Firefight",
+            "CZ75-Auto | Red Astor",
+            "Tec-9 | Re-Entry"
+        ],
+        "Mil-Spec": [
+            "SG 553 | Atlas",
+            "MP9 | Bioleak",
+            "Dual Berettas | Ventilators",
+            "P2000 | Oceanic",
+            "G3SG1 | Orange Crash",
+            "M249 | Spectre",
+            "Sawed-Off | Fubar"
+        ]
+    },
+    "The Wildfire Collection": {
+        "Covert": [
+            "AK-47 | Fuel Injector",
+            "M4A4 | The Battlestar"
+        ],
+        "Classified": [
+            "AWP | Elite Build",
+            "Desert Eagle | Kumicho Dragon",
+            "Nova | Hyper Beast"
+        ],
+        "Restricted": [
+            "Glock-18 | Royal Legion",
+            "FAMAS | Valence",
+            "Five-SeveN | Triumvirate",
+            "MAG-7 | Praetorian",
+            "MP7 | Impire"
+        ],
+        "Mil-Spec": [
+            "USP-S | Lead Conduit",
+            "PP-Bizon | Photic Zone",
+            "Dual Berettas | Cartel",
+            "SSG 08 | Necropos",
+            "Tec-9 | Jambiya",
+            "MAC-10 | Lapis Gator"
+        ]
+    },
+    "The Revolver Case Collection": {
+        "Covert": [
+            "M4A4 | Royal Paladin",
+            "R8 Revolver | Fade"
+        ],
+        "Classified": [
+            "AK-47 | Point Disarray",
+            "P90 | Shapewood",
+            "G3SG1 | The Executioner"
+        ],
+        "Restricted": [
+            "Negev | Power Loader",
+            "Tec-9 | Avalanche",
+            "Five-SeveN | Retrobution",
+            "XM1014 | Teclu Burner",
+            "PP-Bizon | Fuel Rod",
+            "SG 553 | Tiger Moth"
+        ],
+        "Mil-Spec": [
+            "R8 Revolver | Crimson Web",
+            "Desert Eagle | Corinthian",
+            "AUG | Ricochet",
+            "Sawed-Off | Yorick",
+            "P2000 | Imperial",
+            "SCAR-20 | Outbreak"
+        ]
+    },
+    "The Shadow Collection": {
+        "Covert": [
+            "M4A1-S | Golden Coil",
+            "USP-S | Kill Confirmed"
+        ],
+        "Classified": [
+            "AK-47 | Frontside Misty",
+            "SSG 08 | Big Iron",
+            "G3SG1 | Flux"
+        ],
+        "Restricted": [
+            "Galil AR | Stone Cold",
+            "P250 | Wingshot",
+            "MP7 | Special Delivery",
+            "M249 | Nebula Crusader"
+        ],
+        "Mil-Spec": [
+            "Dual Berettas | Dualing Dragons",
+            "Glock-18 | Wraiths",
+            "XM1014 | Scumbria",
+            "FAMAS | Survivor Z",
+            "SCAR-20 | Green Marine",
+            "MAG-7 | Cobalt Core",
+            "MAC-10 | Rangeen"
+        ]
+    },
+    "The Falchion Collection": {
+        "Covert": [
+            "AK-47 | Aquamarine Revenge",
+            "AWP | Hyper Beast"
+        ],
+        "Classified": [
+            "SG 553 | Cyrex",
+            "MP7 | Nemesis",
+            "CZ75-Auto | Yellow Jacket"
+        ],
+        "Mil-Spec": [
+            "Galil AR | Rocket Pop",
+            "USP-S | Torque",
+            "Glock-18 | Bunsen Burner",
+            "P90 | Elite Build",
+            "Nova | Ranger",
+            "UMP-45 | Riot"
+        ],
+        "Restricted": [
+            "M4A4 | Evil Daimyo",
+            "Negev | Loudmouth",
+            "P2000 | Handgun",
+            "MP9 | Ruby Poison Dart",
+            "FAMAS | Neural Net"
+        ]
+    },
+    "The Rising Sun Collection": {
+        "Classified": [
+            "AK-47 | Hydroponic"
+        ],
+        "Covert": [
+            "AUG | Akihabara Accept"
+        ],
+        "Restricted": [
+            "M4A4 | Daybreak",
+            "Five-SeveN | Neon Kimono",
+            "Desert Eagle | Sunset Storm \u58f1",
+            "Desert Eagle | Sunset Storm \u5f10"
+        ],
+        "Mil-Spec": [
+            "Galil AR | Aqua Terrace",
+            "MAG-7 | Counter Terrace",
+            "Tec-9 | Terrace"
+        ],
+        "Industrial Grade": [
+            "Desert Eagle | Midnight Storm",
+            "P250 | Crimson Kimono"
+        ],
+        "Consumer Grade": [
+            "Tec-9 | Bamboo Forest",
+            "PP-Bizon | Bamboo Print",
+            "G3SG1 | Orange Kimono",
+            "P250 | Mint Kimono",
+            "Sawed-Off | Bamboo Shadow"
+        ]
+    },
+    "The Gods and Monsters Collection": {
+        "Covert": [
+            "AWP | Medusa"
+        ],
+        "Classified": [
+            "M4A4 | Poseidon"
+        ],
+        "Restricted": [
+            "M4A1-S | Icarus Fell",
+            "G3SG1 | Chronos"
+        ],
+        "Mil-Spec": [
+            "MP9 | Pandora's Box",
+            "UMP-45 | Minotaur's Labyrinth"
+        ],
+        "Industrial Grade": [
+            "AWP | Sun in Leo",
+            "Tec-9 | Hades",
+            "P2000 | Pathfinder",
+            "M249 | Shipping Forecast"
+        ],
+        "Consumer Grade": [
+            "AUG | Daedalus",
+            "MP7 | Asterion",
+            "Nova | Moon in Libra",
+            "Dual Berettas | Moon in Libra"
+        ]
+    },
+    "The Chop Shop Collection": {
+        "Classified": [
+            "M4A1-S | Hot Rod",
+            "Glock-18 | Twilight Galaxy"
+        ],
+        "Mil-Spec": [
+            "P250 | Whiteout",
+            "MAC-10 | Fade",
+            "MP7 | Full Stop",
+            "CZ75-Auto | Emerald",
+            "Five-SeveN | Nitro"
+        ],
+        "Restricted": [
+            "SG 553 | Bulldozer",
+            "Dual Berettas | Duelist"
+        ],
+        "Industrial Grade": [
+            "Desert Eagle | Night",
+            "USP-S | Para Green",
+            "Galil AR | Urban Rubble"
+        ],
+        "Consumer Grade": [
+            "MAG-7 | Seabird",
+            "SCAR-20 | Army Sheen",
+            "CZ75-Auto | Army Sheen",
+            "M249 | Impact Drill"
+        ]
+    },
+    "The Chroma 2 Collection": {
+        "Covert": [
+            "M4A1-S | Hyper Beast",
+            "MAC-10 | Neon Rider"
+        ],
+        "Classified": [
+            "Galil AR | Eco",
+            "Five-SeveN | Monkey Business",
+            "FAMAS | Djinn"
+        ],
+        "Mil-Spec": [
+            "AK-47 | Elite Build",
+            "Desert Eagle | Bronze Deco",
+            "P250 | Valence",
+            "Sawed-Off | Origami",
+            "MP7 | Armor Core"
+        ],
+        "Restricted": [
+            "AWP | Worm God",
+            "MAG-7 | Heat",
+            "CZ75-Auto | Pole Position",
+            "UMP-45 | Grand Prix"
+        ],
+        "Industrial Grade": [
+            "Negev | Man-o'-war"
+        ]
+    },
+    "The Chroma Collection": {
+        "Covert": [
+            "Galil AR | Chatterbox",
+            "AWP | Man-o'-war"
+        ],
+        "Classified": [
+            "M4A4 | \u9f8d\u738b (Dragon King)",
+            "AK-47 | Cartel",
+            "P250 | Muertos"
+        ],
+        "Restricted": [
+            "Desert Eagle | Naga",
+            "MAC-10 | Malachite",
+            "Sawed-Off | Serenity",
+            "Dual Berettas | Urban Shock"
+        ],
+        "Mil-Spec": [
+            "MP9 | Deadly Poison",
+            "Glock-18 | Catacombs",
+            "M249 | System Lock",
+            "SCAR-20 | Grotto",
+            "XM1014 | Quicksilver"
+        ]
+    },
+    "The Vanguard Collection": {
+        "Covert": [
+            "AK-47 | Wasteland Rebel",
+            "P2000 | Fire Elemental"
+        ],
+        "Classified": [
+            "XM1014 | Tranquility",
+            "P250 | Cartel",
+            "SCAR-20 | Cardiac"
+        ],
+        "Restricted": [
+            "M4A1-S | Basilisk",
+            "M4A4 | Griffin",
+            "Glock-18 | Grinder",
+            "Sawed-Off | Highwayman"
+        ],
+        "Mil-Spec": [
+            "MAG-7 | Firestarter",
+            "UMP-45 | Delusion",
+            "Five-SeveN | Urban Hazard",
+            "MP9 | Dart",
+            "G3SG1 | Murky"
+        ]
+    },
+    "The Cache Collection": {
+        "Restricted": [
+            "Galil AR | Cerberus",
+            "FAMAS | Styx"
+        ],
+        "Mil-Spec": [
+            "Glock-18 | Reactor",
+            "MAC-10 | Nuclear Garden",
+            "MP9 | Setting Sun",
+            "Tec-9 | Toxic",
+            "XM1014 | Bone Machine"
+        ],
+        "Industrial Grade": [
+            "Five-SeveN | Hot Shot",
+            "PP-Bizon | Chemical Green",
+            "SG 553 | Fallout Warning",
+            "Negev | Nuclear Waste",
+            "P250 | Contamination",
+            "AUG | Radiation Hazard"
+        ]
+    },
+    "The eSports 2014 Summer Collection": {
+        "Covert": [
+            "AK-47 | Jaguar",
+            "M4A4 | Bullet Rain"
+        ],
+        "Restricted": [
+            "Desert Eagle | Crimson Web",
+            "PP-Bizon | Blue Streak",
+            "P90 | Virus",
+            "Glock-18 | Steel Disruption",
+            "MP7 | Ocean Foam"
+        ],
+        "Classified": [
+            "Nova | Bloomstick",
+            "AWP | Corticera",
+            "AUG | Bengal Tiger",
+            "P2000 | Corticera"
+        ],
+        "Mil-Spec": [
+            "MAC-10 | Ultraviolet",
+            "Negev | Bratatat",
+            "USP-S | Blood Tiger",
+            "CZ75-Auto | Hexane",
+            "SSG 08 | Dark Water",
+            "XM1014 | Red Python"
+        ]
+    },
+    "The Breakout Collection": {
+        "Covert": [
+            "M4A1-S | Cyrex",
+            "P90 | Asiimov"
+        ],
+        "Classified": [
+            "Glock-18 | Water Elemental",
+            "Desert Eagle | Conspiracy",
+            "Five-SeveN | Fowl Play"
+        ],
+        "Mil-Spec": [
+            "SSG 08 | Abyss",
+            "P2000 | Ivory",
+            "UMP-45 | Labyrinth",
+            "MP7 | Urban Hazard",
+            "Negev | Desert-Strike"
+        ],
+        "Restricted": [
+            "CZ75-Auto | Tigris",
+            "PP-Bizon | Osiris",
+            "Nova | Koi",
+            "P250 | Supernova"
+        ]
+    },
+    "The Baggage Collection": {
+        "Classified": [
+            "AK-47 | Jet Set"
+        ],
+        "Restricted": [
+            "AK-47 | First Class",
+            "Desert Eagle | Pilot"
+        ],
+        "Mil-Spec": [
+            "XM1014 | Red Leather",
+            "USP-S | Business Class",
+            "Sawed-Off | First Class"
+        ],
+        "Industrial Grade": [
+            "P90 | Leather",
+            "SG 553 | Traveler",
+            "P2000 | Coach Class",
+            "MAC-10 | Commuter"
+        ],
+        "Consumer Grade": [
+            "SSG 08 | Sand Dune",
+            "MP9 | Green Plaid",
+            "CZ75-Auto | Green Plaid",
+            "MP7 | Olive Plaid",
+            "G3SG1 | Contractor"
+        ]
+    },
+    "The Overpass Collection": {
+        "Classified": [
+            "M4A1-S | Master Piece"
+        ],
+        "Restricted": [
+            "AWP | Pink DDPAT",
+            "USP-S | Road Rash"
+        ],
+        "Industrial Grade": [
+            "Glock-18 | Night",
+            "Desert Eagle | Urban DDPAT",
+            "MP7 | Gunsmoke",
+            "P2000 | Grassland"
+        ],
+        "Mil-Spec": [
+            "SSG 08 | Detour",
+            "XM1014 | VariCamo Blue",
+            "CZ75-Auto | Nitro"
+        ],
+        "Consumer Grade": [
+            "MP9 | Storm",
+            "MAG-7 | Storm",
+            "UMP-45 | Scorched",
+            "Sawed-Off | Sage Spray",
+            "M249 | Contrast Spray"
+        ]
+    },
+    "The Cobblestone Collection": {
+        "Covert": [
+            "AWP | Dragon Lore"
+        ],
+        "Classified": [
+            "M4A1-S | Knight"
+        ],
+        "Restricted": [
+            "Desert Eagle | Hand Cannon",
+            "CZ75-Auto | Chalice"
+        ],
+        "Mil-Spec": [
+            "MP9 | Dark Age",
+            "P2000 | Chainmail"
+        ],
+        "Industrial Grade": [
+            "USP-S | Royal Blue",
+            "MAG-7 | Silver",
+            "Nova | Green Apple",
+            "Sawed-Off | Rust Coat"
+        ],
+        "Consumer Grade": [
+            "MAC-10 | Indigo",
+            "P90 | Storm",
+            "UMP-45 | Indigo",
+            "SCAR-20 | Storm",
+            "Dual Berettas | Briar"
+        ]
+    },
+    "The Bank Collection": {
+        "Restricted": [
+            "AK-47 | Emerald Pinstripe"
+        ],
+        "Mil-Spec": [
+            "Galil AR | Tuxedo",
+            "Desert Eagle | Meteorite",
+            "CZ75-Auto | Tuxedo"
+        ],
+        "Classified": [
+            "P250 | Franklin"
+        ],
+        "Industrial Grade": [
+            "MAC-10 | Silver",
+            "UMP-45 | Carbon Fiber",
+            "Nova | Caged Steel",
+            "G3SG1 | Green Apple",
+            "Glock-18 | Death Rattle"
+        ],
+        "Consumer Grade": [
+            "Tec-9 | Urban DDPAT",
+            "R8 Revolver | Bone Mask",
+            "MP7 | Forest DDPAT",
+            "Sawed-Off | Forest DDPAT",
+            "Negev | Army Sheen",
+            "SG 553 | Army Sheen"
+        ]
+    },
+    "The Huntsman Collection": {
+        "Contraband": [
+            "M4A4 | Howl"
+        ],
+        "Covert": [
+            "AK-47 | Vulcan",
+            "M4A4 | Desert-Strike"
+        ],
+        "Classified": [
+            "M4A1-S | Atomic Alloy",
+            "USP-S | Orion",
+            "USP-S | Caiman",
+            "SCAR-20 | Cyrex"
+        ],
+        "Restricted": [
+            "AUG | Torque",
+            "XM1014 | Heaven Guard",
+            "PP-Bizon | Antique",
+            "MAC-10 | Tatter",
+            "MAC-10 | Curse"
+        ],
+        "Mil-Spec": [
+            "Tec-9 | Isaac",
+            "CZ75-Auto | Poison Dart",
+            "Galil AR | Kami",
+            "P90 | Desert Warfare",
+            "Dual Berettas | Retribution",
+            "P90 | Module",
+            "CZ75-Auto | Twist",
+            "P2000 | Pulse",
+            "SSG 08 | Slashed"
+        ]
+    },
+    "The Phoenix Collection": {
+        "Covert": [
+            "AWP | Asiimov",
+            "AUG | Chameleon"
+        ],
+        "Classified": [
+            "AK-47 | Redline",
+            "Nova | Antique",
+            "P90 | Trigon"
+        ],
+        "Restricted": [
+            "MAC-10 | Heat",
+            "USP-S | Guardian",
+            "FAMAS | Sergeant",
+            "SG 553 | Pulse"
+        ],
+        "Mil-Spec": [
+            "Tec-9 | Sandstorm",
+            "UMP-45 | Corporal",
+            "Negev | Terrain",
+            "MAG-7 | Heaven Guard"
+        ]
+    },
+    "The Arms Deal 3 Collection": {
+        "Classified": [
+            "P250 | Undertow",
+            "CZ75-Auto | The Fuschia Is Now"
+        ],
+        "Mil-Spec": [
+            "USP-S | Stainless",
+            "Glock-18 | Blue Fissure",
+            "CZ75-Auto | Crimson Web",
+            "Dual Berettas | Panther",
+            "P2000 | Red FragCam"
+        ],
+        "Restricted": [
+            "Desert Eagle | Heirloom",
+            "Five-SeveN | Copper Galaxy",
+            "Tec-9 | Titanium Bit",
+            "CZ75-Auto | Tread Plate"
+        ],
+        "Covert": [
+            "CZ75-Auto | Victoria"
+        ]
+    },
+    "The Winter Offensive Collection": {
+        "Covert": [
+            "M4A4 | Asiimov",
+            "Sawed-Off | The Kraken"
+        ],
+        "Classified": [
+            "AWP | Redline",
+            "M4A1-S | Guardian",
+            "P250 | Mehndi"
+        ],
+        "Restricted": [
+            "Dual Berettas | Marina",
+            "MP9 | Rose Iron",
+            "FAMAS | Pulse",
+            "Nova | Rising Skull"
+        ],
+        "Mil-Spec": [
+            "Galil AR | Sandstorm",
+            "PP-Bizon | Cobalt Halftone",
+            "Five-SeveN | Kami",
+            "M249 | Magma"
+        ]
+    },
+    "The eSports 2013 Winter Collection": {
+        "Classified": [
+            "Desert Eagle | Cobalt Disruption",
+            "AWP | Electric Hive",
+            "FAMAS | Afterimage"
+        ],
+        "Covert": [
+            "M4A4 | X-Ray"
+        ],
+        "Restricted": [
+            "AK-47 | Blue Laminate",
+            "P90 | Blind Spot"
+        ],
+        "Mil-Spec": [
+            "Galil AR | Blue Titanium",
+            "G3SG1 | Azure Zebra",
+            "Five-SeveN | Nightshade",
+            "PP-Bizon | Water Sigil",
+            "Nova | Ghost Camo",
+            "P250 | Steel Disruption"
+        ]
+    },
+    "The Mirage Collection": {
+        "Mil-Spec": [
+            "MP9 | Hot Rod",
+            "UMP-45 | Blaze",
+            "MAC-10 | Amber Fade"
+        ],
+        "Industrial Grade": [
+            "Glock-18 | Groundwater",
+            "SG 553 | Gator Mesh",
+            "SSG 08 | Tropical Storm",
+            "Negev | CaliCamo",
+            "MP7 | Orange Peel"
+        ],
+        "Restricted": [
+            "MAG-7 | Bulldozer"
+        ],
+        "Consumer Grade": [
+            "G3SG1 | Safari Mesh",
+            "Galil AR | Hunting Blind",
+            "AUG | Colony",
+            "P250 | Bone Mask",
+            "Five-SeveN | Contractor",
+            "P90 | Scorched"
+        ]
+    },
+    "The Train Collection": {
+        "Industrial Grade": [
+            "M4A4 | Urban DDPAT",
+            "MAC-10 | Candy Apple",
+            "P250 | Metallic DDPAT",
+            "MAG-7 | Metallic DDPAT",
+            "SCAR-20 | Carbon Fiber",
+            "P90 | Ash Wood"
+        ],
+        "Mil-Spec": [
+            "Desert Eagle | Urban Rubble",
+            "Sawed-Off | Amber Fade"
+        ],
+        "Restricted": [
+            "Tec-9 | Red Quartz"
+        ],
+        "Consumer Grade": [
+            "G3SG1 | Polar Camo",
+            "Five-SeveN | Forest Night",
+            "Dual Berettas | Colony",
+            "UMP-45 | Urban DDPAT",
+            "Nova | Polar Mesh",
+            "PP-Bizon | Urban Dashed"
+        ]
+    },
+    "The Lake Collection": {
+        "Industrial Grade": [
+            "AWP | Safari Mesh",
+            "FAMAS | Cyanospatter",
+            "Desert Eagle | Mudder",
+            "XM1014 | Blue Steel",
+            "PP-Bizon | Night Ops"
+        ],
+        "Mil-Spec": [
+            "USP-S | Night Ops",
+            "P90 | Teardown",
+            "SG 553 | Anodized Navy"
+        ],
+        "Restricted": [
+            "Dual Berettas | Cobalt Quartz"
+        ],
+        "Consumer Grade": [
+            "AUG | Storm",
+            "XM1014 | Blue Spruce",
+            "Galil AR | Sage Spray",
+            "P250 | Boreal Forest",
+            "SG 553 | Waves Perforated",
+            "G3SG1 | Jungle Dashed"
+        ]
+    },
+    "The Italy Collection": {
+        "Industrial Grade": [
+            "M4A1-S | Boreal Forest",
+            "P2000 | Granite Marbleized",
+            "Dual Berettas | Stained",
+            "UMP-45 | Gunsmoke",
+            "Nova | Candy Apple",
+            "XM1014 | CaliCamo"
+        ],
+        "Mil-Spec": [
+            "Glock-18 | Candy Apple",
+            "MP7 | Anodized Navy",
+            "Sawed-Off | Full Stop"
+        ],
+        "Restricted": [
+            "AWP | Pit Viper"
+        ],
+        "Consumer Grade": [
+            "Tec-9 | Groundwater",
+            "FAMAS | Colony",
+            "AUG | Contractor",
+            "Nova | Sand Dune",
+            "PP-Bizon | Sand Dashed"
+        ]
+    },
+    "The Safehouse Collection": {
+        "Restricted": [
+            "M4A1-S | Nitro"
+        ],
+        "Mil-Spec": [
+            "SSG 08 | Acid Fade",
+            "Five-SeveN | Silver Quartz",
+            "FAMAS | Teardown"
+        ],
+        "Industrial Grade": [
+            "USP-S | Forest Leaves",
+            "MP9 | Orange Peel",
+            "AUG | Condemned",
+            "Galil AR | VariCamo",
+            "G3SG1 | VariCamo",
+            "M249 | Gator Mesh"
+        ],
+        "Consumer Grade": [
+            "SSG 08 | Blue Spruce",
+            "Dual Berettas | Contractor",
+            "SCAR-20 | Contractor",
+            "MP7 | Army Recon",
+            "Tec-9 | Army Mesh"
+        ]
+    },
+    "The Dust 2 Collection": {
+        "Restricted": [
+            "P2000 | Amber Fade"
+        ],
+        "Industrial Grade": [
+            "AK-47 | Safari Mesh",
+            "Five-SeveN | Orange Peel",
+            "MAC-10 | Palm",
+            "Sawed-Off | Snake Camo",
+            "Tec-9 | VariCamo"
+        ],
+        "Mil-Spec": [
+            "PP-Bizon | Brass",
+            "SG 553 | Damascus Steel",
+            "M4A1-S | VariCamo"
+        ],
+        "Classified": [
+            "R8 Revolver | Amber Fade"
+        ],
+        "Consumer Grade": [
+            "P250 | Sand Dune",
+            "Nova | Predator",
+            "MP9 | Sand Dashed",
+            "P90 | Sand Spray",
+            "G3SG1 | Desert Storm",
+            "SCAR-20 | Sand Mesh"
+        ]
+    },
+    "The Arms Deal 2 Collection": {
+        "Classified": [
+            "P90 | Cold Blooded",
+            "USP-S | Serum"
+        ],
+        "Covert": [
+            "SSG 08 | Blood in the Water"
+        ],
+        "Restricted": [
+            "Five-SeveN | Case Hardened",
+            "MP9 | Hypnotic",
+            "Dual Berettas | Hemoglobin",
+            "Nova | Graphite"
+        ],
+        "Mil-Spec": [
+            "SCAR-20 | Crimson Web",
+            "Tec-9 | Blue Titanium",
+            "M4A1-S | Blood Tiger",
+            "P250 | Hive",
+            "FAMAS | Hexane"
+        ]
+    },
+    "The Bravo Collection": {
+        "Covert": [
+            "AK-47 | Fire Serpent",
+            "Desert Eagle | Golden Koi"
+        ],
+        "Classified": [
+            "AWP | Graphite",
+            "P2000 | Ocean Foam",
+            "P90 | Emerald Dragon"
+        ],
+        "Restricted": [
+            "USP-S | Overgrowth",
+            "MAC-10 | Graven",
+            "M4A4 | Zirka",
+            "M4A1-S | Bright Water"
+        ],
+        "Mil-Spec": [
+            "Nova | Tempest",
+            "G3SG1 | Demeter",
+            "UMP-45 | Bone Pile",
+            "SG 553 | Wave Spray",
+            "Galil AR | Shattered",
+            "Dual Berettas | Black Limba"
+        ]
+    },
+    "The Alpha Collection": {
+        "Restricted": [
+            "FAMAS | Spitfire",
+            "SCAR-20 | Emerald"
+        ],
+        "Industrial Grade": [
+            "Glock-18 | Sand Dune",
+            "SSG 08 | Mayan Dreams",
+            "P250 | Facets",
+            "Sawed-Off | Mosaico",
+            "Negev | Palm"
+        ],
+        "Mil-Spec": [
+            "AUG | Anodized Navy",
+            "MAG-7 | Hazard",
+            "PP-Bizon | Rust Coat"
+        ],
+        "Consumer Grade": [
+            "Five-SeveN | Anodized Gunmetal",
+            "Tec-9 | Tornado",
+            "XM1014 | Jungle",
+            "MP7 | Groundwater",
+            "MP9 | Dry Season",
+            "M249 | Jungle DDPAT"
+        ]
+    },
+    "The Assault Collection": {
+        "Restricted": [
+            "Glock-18 | Fade",
+            "MP9 | Bulldozer"
+        ],
+        "Mil-Spec": [
+            "AUG | Hot Rod",
+            "Negev | Anodized Navy"
+        ],
+        "Industrial Grade": [
+            "Five-SeveN | Candy Apple"
+        ],
+        "Consumer Grade": [
+            "UMP-45 | Caramel",
+            "SG 553 | Tornado"
+        ]
+    },
+    "The Vertigo Collection": {
+        "Mil-Spec": [
+            "AK-47 | Black Laminate",
+            "P90 | Glacier Mesh"
+        ],
+        "Consumer Grade": [
+            "MAC-10 | Urban DDPAT",
+            "XM1014 | Urban Perforated"
+        ],
+        "Industrial Grade": [
+            "PP-Bizon | Carbon Fiber"
+        ],
+        "Restricted": [
+            "Dual Berettas | Demolition"
+        ]
+    },
+    "The Office Collection": {
+        "Mil-Spec": [
+            "MP7 | Whiteout",
+            "P2000 | Silver"
+        ],
+        "Industrial Grade": [
+            "Galil AR | Winter Forest",
+            "M249 | Blizzard Marbleized",
+            "G3SG1 | Arctic Camo"
+        ],
+        "Consumer Grade": [
+            "FAMAS | Contrast Spray"
+        ]
+    },
+    "The Militia Collection": {
+        "Mil-Spec": [
+            "Nova | Modern Hunter",
+            "Nova | Blaze Orange",
+            "P250 | Modern Hunter",
+            "XM1014 | Blaze Orange",
+            "PP-Bizon | Modern Hunter"
+        ],
+        "Restricted": [
+            "M4A4 | Modern Hunter"
+        ],
+        "Classified": [
+            "SCAR-20 | Splash Jam"
+        ],
+        "Industrial Grade": [
+            "P2000 | Grassland Leaves"
+        ],
+        "Consumer Grade": [
+            "MAC-10 | Tornado",
+            "XM1014 | Grassland",
+            "PP-Bizon | Forest Leaves"
+        ]
+    },
+    "The eSports 2013 Collection": {
+        "Classified": [
+            "AWP | BOOM",
+            "AK-47 | Red Laminate"
+        ],
+        "Covert": [
+            "P90 | Death by Kitty"
+        ],
+        "Restricted": [
+            "P250 | Splash",
+            "Galil AR | Orange DDPAT",
+            "Sawed-Off | Orange DDPAT"
+        ],
+        "Mil-Spec": [
+            "MAG-7 | Memento",
+            "M4A4 | Faded Zebra",
+            "FAMAS | Doomkitty"
+        ]
+    },
+    "The Nuke Collection": {
+        "Mil-Spec": [
+            "M4A4 | Radiation Hazard"
+        ],
+        "Restricted": [
+            "Tec-9 | Nuclear Threat",
+            "P250 | Nuclear Threat"
+        ],
+        "Industrial Grade": [
+            "P90 | Fallout Warning",
+            "UMP-45 | Fallout Warning",
+            "XM1014 | Fallout Warning"
+        ],
+        "Consumer Grade": [
+            "MAG-7 | Irradiated Alert",
+            "PP-Bizon | Irradiated Alert",
+            "Sawed-Off | Irradiated Alert"
+        ]
+    },
+    "The Inferno Collection": {
+        "Industrial Grade": [
+            "M4A4 | Tornado",
+            "P250 | Gunsmoke"
+        ],
+        "Mil-Spec": [
+            "Tec-9 | Brass",
+            "Dual Berettas | Anodized Navy"
+        ],
+        "Consumer Grade": [
+            "Nova | Walnut",
+            "MAG-7 | Sand Dune"
+        ]
+    },
+    "The Dust Collection": {
+        "Restricted": [
+            "Desert Eagle | Blaze",
+            "Glock-18 | Brass",
+            "P2000 | Scorpion"
+        ],
+        "Mil-Spec": [
+            "Sawed-Off | Copper",
+            "AUG | Copperhead",
+            "AWP | Snake Camo"
+        ],
+        "Industrial Grade": [
+            "AK-47 | Predator",
+            "M4A4 | Desert Storm",
+            "SCAR-20 | Palm"
+        ]
+    },
+    "The Aztec Collection": {
+        "Industrial Grade": [
+            "AK-47 | Jungle Spray",
+            "M4A4 | Jungle Tiger"
+        ],
+        "Consumer Grade": [
+            "Five-SeveN | Jungle",
+            "SSG 08 | Lichen Dashed",
+            "Nova | Forest Leaves"
+        ],
+        "Mil-Spec": [
+            "Tec-9 | Ossified"
+        ]
+    },
+    "The Arms Deal Collection": {
+        "Covert": [
+            "AWP | Lightning Strike"
+        ],
+        "Classified": [
+            "AK-47 | Case Hardened",
+            "Desert Eagle | Hypnotic"
+        ],
+        "Restricted": [
+            "Glock-18 | Dragon Tattoo",
+            "M4A1-S | Dark Water",
+            "USP-S | Dark Water"
+        ],
+        "Mil-Spec": [
+            "SG 553 | Ultraviolet",
+            "AUG | Wings",
+            "MP7 | Skulls"
+        ]
+    }
+}

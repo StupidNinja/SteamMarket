@@ -1,0 +1,20 @@
+{
+    "The Kilowatt Collection": {
+        "Covert": {
+            "AK-47 | Inheritance": {
+                "lowest_price_factory_new": "$360.00",
+                "lowest_price_minimal_wear": "$225.12",
+                "lowest_price_field-tested": "$143.00",
+                "lowest_price_well-worn": "$118.91",
+                "lowest_price_battle-scarred": "$95.77"
+            },
+            "AWP | Chrome Cannon": {
+                "lowest_price_factory_new": "$377.80",
+                "lowest_price_minimal_wear": "$178.50",
+                "lowest_price_field-tested": "$110.00",
+                "lowest_price_well-worn": "$77.94",
+                "lowest_price_battle-scarred": "$65.39"
+            }
+        }
+    }
+}
