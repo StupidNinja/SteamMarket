@@ -13,11 +13,29 @@ This Python script calculates the potential profit or loss from a trade-up contr
 
 ## Usage
 
-The script is executed from the command line and interacts with the user through the terminal. It requires the `json`, `requests`, `urllib3`, and `BeautifulSoup` libraries.
+This script is designed to be run from the command line. Here's a step-by-step guide on how to use it:
 
-```bash
-python main.py
-```
+1. **Install Dependencies**: Before running the script, make sure you have the required libraries installed. You can install them using pip:
+
+    ```bash
+    pip install json requests urllib3 beautifulsoup4
+    ```
+
+2. **Run the Script**: Navigate to the directory containing the script and run it using Python:
+
+    ```bash
+    python main.py
+    ```
+
+3. **Choose a Skin and Wear Level**: The script will prompt you to choose a CS:GO skin and a wear level. Enter your choices when prompted.
+
+4. **View the Results**: The script will calculate the trade-up value and print the results to the terminal. The results include the total cost, probability, skins used, desired skin price, and desired collection.
+
+5. **Test the Trade-Up Value**: You can test the `trade_up_calculator()` function with a specific skin and wear level by calling the `test_trade_up_value()` function.
+
+6. **Use the CLI**: From version 1.3 onwards, you can use the command line interface (CLI) to interact with the script. This allows you to pass parameters directly from the command line, making the script more flexible and easier to use in different contexts.
+
+Remember to replace `main.py` with the actual name of your script if it's different.
 ## Dependencies
 
  - `json`
@@ -41,3 +59,6 @@ Version 1.2:
 
 Version 1.3:
  - Added CLI
+
+
+ 
