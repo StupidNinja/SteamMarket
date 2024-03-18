@@ -125,11 +125,12 @@ def trade_up_calculator(desired_skin, desired_wear):
 
     # Fill the contract with the cheapest skins
     skins_used = {}
+    total_skins = 0
     for skin, price in lower_rarity_prices:
-        while total_cost + price <= desired_skin_price and len(skins_used) < 10:
+        while total_skins < 10:
             total_cost += price
             skins_used[skin] = skins_used.get(skin, 0) + 1
-
+            total_skins += 1
     # Define the skins of the same rarity as the desired skin
     same_rarity_skins = collections_data[desired_collection][list(rarity_mapping.keys())[desired_rarity]]
 
@@ -139,6 +140,50 @@ def trade_up_calculator(desired_skin, desired_wear):
     # Return the total input cost, the probability, the skins used, and the price of the desired skin
     return total_cost, probability, skins_used, desired_skin_price, desired_collection
 
+def choose_skin_and_wear():
+    # Load the collections data
+    with open('collections.json', 'r') as f:
+        collections = json.load(f)
+
+    # List the collections
+    print("Collections:")
+    for i, collection in enumerate(collections.keys(), start=1):
+        print(f"{i}. {collection}")
+
+    # Let the user choose a collection
+    collection_index = int(input("Choose a collection by number: ")) - 1
+    chosen_collection_name = list(collections.keys())[collection_index]
+    chosen_collection = collections[chosen_collection_name]
+
+    # List the rarities in the chosen collection
+    print("Rarities:")
+    for i, rarity in enumerate(chosen_collection.keys(), start=1):
+        print(f"{i}. {rarity}")
+
+    # Let the user choose a rarity
+    rarity_index = int(input("Choose a rarity by number: ")) - 1
+    chosen_rarity = list(chosen_collection.keys())[rarity_index]
+
+    # List the skins in the chosen rarity
+    print("Skins:")
+    for i, skin in enumerate(chosen_collection[chosen_rarity], start=1):
+        print(f"{i}. {skin}")
+
+    # Let the user choose a skin
+    skin_index = int(input("Choose a skin by number: ")) - 1
+    chosen_skin = chosen_collection[chosen_rarity][skin_index]
+
+    # List the wear options
+    wear_options = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
+    print("Wear options:")
+    for i, wear in enumerate(wear_options, start=1):
+        print(f"{i}. {wear}")
+
+    # Let the user choose a wear option
+    wear_index = int(input("Choose a wear option by number: ")) - 1
+    chosen_wear = wear_options[wear_index]
+
+    return chosen_skin, chosen_wear
 
 def test_trade_up_value():
     desired_skin = "M4A4 | Temukau"
@@ -163,5 +208,29 @@ def test_trade_up_value():
     print(f'{result}: ${abs(profit_or_loss):.2f}')
 
 
-item_id = get_cheapest_item_id('AWP | Duality (Factory New)')
-print(item_id)
+def main():
+    # Choose a skin and wear
+    chosen_skin, chosen_wear = choose_skin_and_wear()
+
+    # Calculate the trade up value
+    total_cost, probability, skins_used, desired_skin_price, desired_collection = trade_up_calculator(chosen_skin, chosen_wear)
+
+    # Calculate the profit or loss
+    profit_or_loss = desired_skin_price - total_cost
+
+    # Determine whether it's a profit or loss
+    result = 'Profit' if profit_or_loss > 0 else 'Loss'
+
+    # Print the results to the terminal
+    print(f'Total cost: ${total_cost:.2f}')
+    print(f'Probability: {probability*100:.2f}%')
+    print(f'Skins used in the contract:')
+    for skin, count in skins_used.items():
+        print(f'  {skin}: {count}')
+    print(f'Collection of skins used: {desired_collection}')
+    print(f'Price of desired skin: ${desired_skin_price:.2f}')
+    print(f'{result}: ${abs(profit_or_loss):.2f}')
+
+
+if __name__ == "__main__":
+    main()
