@@ -38,38 +38,6 @@ def scrape_and_save_prices(skin_name, wear):
     # Return the data
     return data
 
-
-def get_skin_price(skin_name, wear):
-    # Replace spaces with '+' for the URL
-    skin_name = skin_name.replace(' ', '+')
-    wear = wear.replace(' ', '+')
-
-    # Make a request to the Steam Community Market priceoverview API
-    response = requests.get(f"https://steamcommunity.com/market/priceoverview/?country=US&currency=1&appid=730&market_hash_name={skin_name}+({wear})")
-
-    # Parse the response JSON and return the lowest price
-    return float(response.json()['lowest_price'].replace('$', ''))
-
-
-def get_cheapest_item_id(item_name):
-    # Get the listings for the item
-    response = requests.get(f'https://steamcommunity.com/market/listings/730/{item_name}')
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    # Find the script tag that contains the listings
-    script_tag = soup.find('script', text=lambda t: 'Market_LoadOrderSpread' in t)
-
-    # Check if the script tag was found
-    if script_tag is None:
-        print(f"No listings found for {item_name}")
-        return None
-
-    # Extract the item_id of the cheapest listing from the script tag
-    item_id = script_tag.text.split('Market_LoadOrderSpread(')[1].split(')')[0]
-
-    return item_id
-
-
 def trade_up_calculator(desired_skin, desired_wear):
     # Load the data from collections.json
     with open('collections.json', 'r') as f:
