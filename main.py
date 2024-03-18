@@ -1,8 +1,5 @@
 import json
-import requests
 import urllib3
-from bs4 import BeautifulSoup
-
 import urllib.parse
 
 

@@ -2,7 +2,6 @@ import json
 import requests
 from time import sleep
 from bs4 import BeautifulSoup
-
 import urllib.parse
 
 
