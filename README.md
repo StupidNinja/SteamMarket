@@ -6,10 +6,7 @@ This Python script calculates the potential profit or loss from a trade-up contr
 
 - `scrape_and_save_prices(skin_name, wear)`: Fetches the current market price of a specific CS:GO skin with a specific wear level.
 - `get_skin_price(skin_name, wear)`: Fetches the lowest market price of a specific CS:GO skin with a specific wear level.
-- `get_cheapest_item_id(item_name)`: Fetches the item ID of the cheapest listing for a specific item on the Steam Community Market.
 - `trade_up_calculator(desired_skin, desired_wear)`: Calculates the potential profit or loss from a trade-up contract for a specific CS:GO skin with a specific wear level.
-- `test_trade_up_value()`: Tests the `trade_up_calculator()` function with a specific skin and wear level.
-- `main()`: The main function of the script. It prompts the user to choose a skin and a wear level, calculates the trade-up value, and prints the results to the terminal.
 
 ## Usage
 
