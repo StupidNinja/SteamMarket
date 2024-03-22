@@ -28,10 +28,6 @@ This script is designed to be run from the command line. Here's a step-by-step g
 
 4. **View the Results**: The script will calculate the trade-up value and print the results to the terminal. The results include the total cost, probability, skins used, desired skin price, and desired collection.
 
-5. **Test the Trade-Up Value**: You can test the `trade_up_calculator()` function with a specific skin and wear level by calling the `test_trade_up_value()` function.
-
-6. **Use the CLI**: From version 1.3 onwards, you can use the command line interface (CLI) to interact with the script. This allows you to pass parameters directly from the command line, making the script more flexible and easier to use in different contexts.
-
 Remember to replace `main.py` with the actual name of your script if it's different.
 ## Dependencies
 
